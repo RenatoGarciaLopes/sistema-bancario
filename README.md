@@ -19,6 +19,11 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes conceitos:
 - **Consultas otimizadas**: Métodos para exibir informações organizadas (`consultarCod`, `consultarAlfa`, `consultar_mov`)
 - **Tratamento de entrada de dados**: Validações robustas para evitar entradas inválidas (`validarNum`, `validarECompararComLista`)
 - **Interface no terminal**: Uso de `gotoxy()` para melhorar a usabilidade no terminal
+- **Alocação dinâmica de memória**: Uso de `malloc()` e `free()` para manipular estruturas de dados dinamicamente
+- **Uso de ponteiros**: Manipulação eficiente de listas encadeadas e registros de movimentação
+- **Modularização do código**: Separação do código em múltiplos arquivos (`Alteracao.c`, `Consultar.c`, etc.) para melhor organização
+- **Gerenciamento de transações bancárias**: Lógica para créditos, débitos e transferências entre contas
+- **Boas práticas de programação em C**: Organização do código, uso adequado de structs e headers (`Funcoes.h`)
 
 
 ## 📜 Licença  
